@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?ueb5xi");
+  src: url("fonts/icomoon.eot?ueb5xi#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?ueb5xi") format("truetype"),
+    url("fonts/icomoon.woff?ueb5xi") format("woff"),
+    url("fonts/icomoon.svg?ueb5xi#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url("images/cake.jpg") no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+  font: 700 30px "STCaiyun";
+  text-align: center;
+}
+
+span {
+  font-family: "icomoon";
+  font-size: 25px;
+  color: rgb(236, 236, 13);
+}
+
+input {
+  outline: none;
+}
+
+.container {
+  width: 450px;
+  height: 350px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.input-form {
+  font: 500 15px "Microsoft";
+  width: 430px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.input-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+button:hover {
+  background-color: #4cae4c;
+  color: white;
+}
